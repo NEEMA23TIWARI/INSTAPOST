@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 80%;
+    width: 30%;
+    border: 1px solid rgba(73, 21, 21, 0.881);
+}
+
+.profile-cont {
+
+    height: 11%;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(73, 21, 21, 0.881);
+}
+
+.profile-info {
+
+    height: 100%;
+    width: 100%;
+    font-size: small;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.profile-img img {
+
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.ri-send-plane-2-line {
+
+    font-size: x-large;
+
+}
+
+.ri-heart-line {
+
+    font-size: x-large;
+    text-align: center;
+    /* background-color: white; */
+    /* color: red; */
+
+}
+
+.ri-heart-fill {
+    -webkit-text-stroke: 2px  black;
+    color: white;
+    font-size: larger;
+}
+
+.ri-chat-3-line {
+    font-size: x-large;
+}
+
+.ri-more-2-line {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+.img-cont {
+    height: 80%;
+    width: 100%;
+}
+
+.img-cont img {
+    height: 100%;
+    width: 100%;
+}
+
+.act-btn-cont {
+    height: 10%;
+    width: 100%;
+}
+
+.icons i {
+
+    margin-right: 20px;
+    margin-top: 10px;
+}
